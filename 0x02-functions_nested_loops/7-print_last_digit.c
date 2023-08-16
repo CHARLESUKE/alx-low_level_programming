@@ -1,13 +1,14 @@
 #include "main.h"
 
-/*
- * print_last_digit-  a function that prints
+/**
+ * print_last_digit - function that prints
  * the last digit of a number.
  *
  * @n: integer
  * Return:0
  */
-int print_last_digit(int n);
+
+int print_last_digit(int n)
 {
 	int j;
 
