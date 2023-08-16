@@ -5,10 +5,10 @@ iinclude "main.h"
  *
  * @c: charracter
  *
- * Returns: 1 if c is lowercase
- * Returns: 0 otherwise
+ * Return: 1 if c is lowercase
+ * otherwise 0
  */
-int _islower(int c);
+int _islower(int c)
 {
 	if (c >= 'a' && c <= 'z')
 		return (1);
